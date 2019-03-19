@@ -1,4 +1,4 @@
-# ender_chest_cracker
+# Ender Chest Cracker
 A Lua ComputerCraft program that looks for items in any public Ender Chests for Minecraft Modpacks
 
 ## Dependencies
