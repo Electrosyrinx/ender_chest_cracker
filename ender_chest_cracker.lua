@@ -29,6 +29,7 @@ function addPinToList(n, id)
         print(contents[1].name.." found in ["..tank[1]..", "..tank[2]..", "..tank[3].."]")
         contents = nil
     end
+    return "Added pin to list"
 end
 
 -- Checks for existence of contents in ender tank
@@ -50,6 +51,7 @@ function tank()
     if input == "exit" then
         main()
     end
+    return "Scanned tank."
 end
 
 -- Checks for existence of contents in ender chest
@@ -71,6 +73,7 @@ function chest()
     if input == "exit" then
         main()
     end
+    return "Scanned chest."
 end
 
 -- Welcome message, tells user how to use the program and accept's user's prompt
